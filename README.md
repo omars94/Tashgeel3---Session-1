@@ -1,12 +1,39 @@
-# React + Vite
+# Session 1 – Introduction to ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📚 Topics Covered
 
-Currently, two official plugins are available:
+- What is React?
+- Why use React?
+- React vs React Native (conceptual overview)
+- Setting up a ReactJS project using Vite
+- Understanding JSX
+- Creating your first component
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# React Basics Practice – Components, Props, State, and useEffect
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This repo contains practice examples for beginner React developers, focusing on:
+
+- Creating and using components
+- Passing props and destructuring
+- Managing state with `useState`
+- Conditional rendering and styling
+- Handling events and input
+- Using `useEffect` with intervals and cleanup
+- Toggling themes and cycling through arrays
+- Key best practices with `.map(), .filter()`
+
+## File Structure
+Session 1_ Introduction to React & React Native.pdf # Session Introduction
+
+CounterApp_task.jsx # Task: Counter app with +, -, reset, and theme toggle
+
+src/
+
+├── App.jsx # Main file rendering components
+
+├── User.jsx # Demonstrates props, state, color switching, dark mode toggle
+
+├── Search.jsx # Input field with controlled state
+
+└── App.css # Basic styling
