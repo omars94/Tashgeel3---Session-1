@@ -1,0 +1,13 @@
+ReactJS Task: Counter App
+
+Objective:
+    Create a simple ReactJS application that includes:
+        A number displayed on screen (the counter).
+        Three buttons:
+            + to increment the count.
+            - to decrement the count.
+            Reset to reset the count to 0.
+    Bonus: 
+        - A toggle button to switch between Light Mode and Dark Mode.
+        - Disable the - button when the count is at 0.
+
